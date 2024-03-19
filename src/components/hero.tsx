@@ -10,7 +10,6 @@ export default function Hero() {
             <Navbar />
             <div className="py-[150px] pb-[100px] text-center text-white">
                 <div className="mb-[100px]">
-                    <Opc delayTime={0.4}>
                         <div className="inline-block">
                             <div className="flex items-center gap-4 px-2 pr-6 py-2 rounded-full border-[1px] text-[15px] mb-[40px] border-gray-600 text-gray-200">
                                 <div className="flex items-center">
@@ -24,13 +23,8 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                    </Opc>
-                    <Reveal delayTime={0}>
-                        <h1 className="text-[46px] leading-[56px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1150px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
-                    </Reveal>
-                    <Reveal delayTime={0.2}>
-                        <p className="text-[20px] font-light text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
-                    </Reveal>
+                    <h1 className="text-[46px] leading-[56px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1150px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
+                    <p className="text-[20px] font-light text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
                 </div>
                 <div className="text-white mb-20 bg-[url(/thumbnails/video.webp)] bg-cover bg-center w-[1000px] h-[600px] rounded-xl flex items-center justify-center mx-auto">
                     <div className="bg-blue-500 h-[80px] w-[80px] rounded-full flex items-center justify-center">
