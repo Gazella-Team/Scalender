@@ -18,7 +18,7 @@ export default function Hero() {
                                     <img className="w-[40px] h-[40px] object-cover rounded-full ml-[-20px]" src="/people/three.jpg"></img>
                                 </div>
                                 <div className="flex flex-col gap-1 justify-center">
-                                    <p>Hundredevis af glade kunder</p>
+                                    <p>10+ clients</p>
                                     <img className="w-[80px]" src="/5-star.webp"></img>
                                 </div>
                             </div>
