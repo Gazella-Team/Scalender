@@ -5,7 +5,7 @@ export default function Services() {
                 <div className="text-center mb-20">
                     <h1 className="text-[44px] font-semibold">Services we <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">provide</span></h1>
                 </div>
-                <div className="grid grid-cols-2 gap-10 text-black">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-black">
                     <div style={{background:"linear-gradient(338deg, rgba(174,186,247,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}} className="bg-white border-[1px] p-10 rounded-xl">
                         <div className="p-3 rounded-xl mb-8 border-[1px] inline-block">
                             <img className="w-[50px]" src="/services/linkedin.png"></img>

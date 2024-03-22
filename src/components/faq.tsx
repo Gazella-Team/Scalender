@@ -57,7 +57,7 @@ export default function FAQ() {
                     <h1 className="text-[44px] font-semibold">Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">Questions</span></h1>
                 </div>
      <section>
-      <div className="w-[70%] mx-auto max-w-[1000px] heroOne:w-sectionMain">
+      <div className="w-[90%] mx-auto max-w-[1000px] heroOne:w-sectionMain">
           <Accordion
             type="single"
             collapsible

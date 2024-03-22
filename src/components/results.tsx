@@ -5,7 +5,7 @@ export default function Results() {
                 <div className="text-center mb-20">
                     <h1 className="text-[44px] font-semibold">Results that <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">rock</span></h1>
                 </div>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-center gap-10">
                         <div className="border-l-[2px] py-6 px-6 border-blue-500">
                             <p className="text-[22px] w-[80%] font-medium">We solve big data intelligence with our custom data solution.</p>

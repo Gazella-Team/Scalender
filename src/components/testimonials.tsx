@@ -11,7 +11,7 @@ export default function Testimonials() {
                 <div className="text-center mb-20">
                     <h1 className="text-[44px] font-semibold">What clients have <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">to say</span></h1>
                 </div>
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
                     {testimonialsData.map(v => <TestimonialCard key={v} Obj={v} />)}
                 </div>
             </div>
