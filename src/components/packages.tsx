@@ -40,7 +40,6 @@ export default function Packages() {
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href={"/"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Get in touch</Link>
-                            <Link href={"/"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Book a call</Link>
                         </div>
                     </div>
                     <div className="rounded-xl border p-10" style={{background:"linear-gradient(338deg, rgba(101,126,255,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}}>
@@ -74,7 +73,6 @@ export default function Packages() {
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href={"/"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Get in touch</Link>
-                            <Link href={"/"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Book a call</Link>
                         </div>
                     </div>
                 </div>

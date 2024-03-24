@@ -9,7 +9,7 @@ const links = [
 
 export default function Navbar() {
     return (
-        <nav className="h-[80px] flex items-center">
+        <nav className="h-[10vh] flex items-center">
             <div className="w-[94%] mx-auto max-w-[1400px] text-white flex items-center justify-between">
                 <h1 className="text-[20px] font-semibold uppercase">scalender</h1>
                 <div className="flex items-center gap-6 font-medium">

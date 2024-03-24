@@ -6,9 +6,9 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
-        <section style={{background: "radial-gradient(circle, rgba(17,35,83,1) 0%, rgba(11,18,55,1) 54%, rgba(11,10,40,1) 100%), url(/patterns/lines.svg)"}} className="pb-[60px] bg-center bg-cover h-[90vh]">
+        <section style={{background: "radial-gradient(circle, rgba(17,35,83,1) 0%, rgba(11,18,55,1) 54%, rgba(11,10,40,1) 100%), url(/patterns/lines.svg)"}} className="bg-center bg-cover">
             <Navbar />
-            <div className="pb-[10px] pt-[50px] text-center text-white">
+            <div className="text-center text-white h-[80vh] flex flex-col justify-center">
                 <div className="mb-[30px]">
                     <h1 className="text-[42px] leading-[56px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1150px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
                     <p className="text-[20px] font-light text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
