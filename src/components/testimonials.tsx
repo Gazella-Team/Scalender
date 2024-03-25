@@ -21,7 +21,7 @@ export default function Testimonials() {
 
 const TestimonialCard = (props:any) => {
     return (
-        <div style={{background:"linear-gradient(338deg, rgba(6,96,255,0.19233630952380953) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}} className="p-10 border-[1px] rounded-xl">
+        <div style={{background:"linear-gradient(338deg, rgba(0,207,71,0.2399553571428571) 0%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%)"}} className="p-10 border-[1px] rounded-xl">
             <img className="w-[100px] mb-[20px]" src="/sliderlogos/meta.png"></img>
             <h1 className="text-xl font-semibold mb-[14px]">{props.Obj.heading}</h1>
             <p className="text-gray-600 font-regular mb-12">{props.Obj.description}</p>
