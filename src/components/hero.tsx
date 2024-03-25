@@ -10,7 +10,10 @@ export default function Hero() {
             <Navbar />
             <div className="text-center text-white h-[80vh] flex flex-col justify-center">
                 <div className="mb-[30px]">
-                    <div className="mx-auto items-center justify-center mb-6 border flex w-[200px] gap-2 rounded-full py-1">
+                    <h1 className="text-[34px] leading-[44px] font-medium w-[90%] mb-[20px] mx-auto max-w-[950px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
+                    <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
+                </div>
+                <div className="mx-auto items-center justify-center mb-6 border flex w-[200px] gap-2 rounded-full py-1">
                         <div className="flex items-center">
                             <img className="w-[40px] h-[40px] rounded-full object-cover" src="/people/one.jpg"></img>
                             <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/two.jpg"></img>
@@ -22,9 +25,6 @@ export default function Hero() {
                         </div>
     
                     </div>
-                    <h1 className="text-[34px] leading-[44px] font-medium w-[90%] mb-[20px] mx-auto max-w-[950px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
-                    <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
-                </div>
                 <div className="text-white mb-0 bg-[url(/thumbnails/video.webp)] bg-cover bg-center w-[600px] h-[340px] rounded-xl flex items-center justify-center mx-auto">
                     <div className="bg-blue-500 h-[80px] w-[80px] rounded-full flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-9 h-9">
