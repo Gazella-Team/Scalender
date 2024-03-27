@@ -10,40 +10,34 @@ import {
 
 const questions = [
     {
-      question: "Hvad er jeres garanti?",
+      question: "Does this work for any marketing agency?",
       answer:
-        "Vi garanterer dig en indkomst på 20.000,- / måned efter 180 dage, ellers sender vi hver eneste krone tilbage + 12.000 kroner fra vores egen pung",
+        "Yes, as long as you have defined your target market, we can utilize outbound outreach as a marketing tool for your company. We have worked with many different types of marketing agencies, ranging from E-commerce agencies to Web Design and SEO agencies.",
     },
     {
-      question: "Kan jeg gøre dette, mens jeg går i skole/arbejder?",
+      question: "What is the price?",
       answer:
-        "Ja, selvfølgelig. Det er ikke noget problem at gå i skole, mens du driver denne virksomhed. Da vi startede med forretning, gik vi begge i gymnasiet, men nu er vi fuldtidsbeskæftigede med vores virksomheder.",
+        "The price depends entirely on how much you want done. Outbound outreach can act both as your main source of sales meetings, but also as a supplement to something like paid ads for your agency. We will tailor a solution that fits your needs and provide a price accordingly.",
     },
     {
-      question: "Hvordan får jeg support?",
+      question: "What countries can you target?",
       answer:
-        "Du kan altid sende os en besked, eller opsætte et 1:1 opkald med os  og vi vil hjælpe, for som vores motto siger: din succes er vores succes.",
+        "We can target most countries. We have experience with both European markets and the US market.",
     },
     {
-      question: "Hvad kommer jeg til at lære?",
+      question: "Can I get transparency and follow your work, so I know what emails and messages you send?",
       answer:
-        "Du vil lære præcis, hvordan man bygger en forretning. Alt sammen på samme måde som vi gjorde, for du får alle vores frameworks og en klar forretningsplan der forklarer dig præcis hvad du skal gøre hver dag. Dette er en helt ny forretningsmodel, som alle virksomheder har brug for, så det er et perfekt tidspunkt at komme i gang. Vi driver selv et agency ud fra denne forretningsmodel, OCMA. Du vil altid være et skridt foran andre, fordi du netop har vores frameworks, som opdateres løbende. Så hvad venter du på? Ansøg i dag og start din rejse.",
+        "Absolutely, you will be able to confirm any campaigns that we launch, and we are open for questions and concerns any day of the week. Additionally, we provide weekly reports with results.",
     },
     {
-      question:
-        "Hvad sker der, efter jeg er blevet accepteret til at købe OCMA Masterclass?",
+      question: "How fast can I expect to see results?",
       answer:
-        "Som du måske har set på hjemmesiden er der ingen “køb nu” knap, og det er der ikke grundet den garanti vi har. Vi skal tale med alle får nogen får adgang. Vi vil gerne vide hvem vi better vores egne penge på. Du bliver tilføjet til vores egen software med alle moduler. Vores undervisningsmateriale er både i tekst og video. Derudover kommer du med i en gruppe for udelukkende medlemmer af OCMA Masterclass,, for at spare med hinanden og os.",
+        "You can expect the first meetings to start flowing after about 2 weeks, since there is a warm up period of 2 weeks for domains and email accounts.",
     },
     {
-      question: "Hvor meget kan jeg forvente at tjene?",
+      question: "What do I have to do in the partnership?",
       answer:
-        "Der er ingen maximum på, hvor meget du kan tjene; det er fordelene ved denne forretningsmodel. Som regel vokser dit agency og netværk med tiden, hvilket giver mulighed for større vækst, samtidig med at tidsforbruget mindskes. Du har derfor selv muligheden for at bestemme, afhængigt af dine målsætninger, hvor du ønsker at bevæge dig hen. Vi har dog set flere af de første elever lukke aftaler på 8-30.000,- efter blot en uge og derefter opsige deres job, da de nu * Men husk det er eksempler og ikke nødvendigvis hvad der er gældende for dig.",
-    },
-    {
-      question: "Kan man ikke bare lære dette på youtube?",
-      answer:
-        "Ofte vil du kunne finde den information du får i kurser på youtube eller lign. men sådan er det ikke her, eftersom vores forretningsmodel er helt ny. Og for at bevise dette vil jeg gerne tage dig med på en test, gå ind på youtube > søg på “OCMA” Det ville overraske mig hvis du fandt noget! og det ville det netop eftersom vi er de første som oplærer dig netop dette. Det skal dog nævnes at der er andre forretningsmodeller der læner sig op ad denne. ",
+        "Not much at all. We simply need some information about your company, your offer, your case studies and we can start. You will not have to do anything else besides checking your calendar for new meetings. If you would like to be involved in copywriting or inbox management, you are more than welcome to do so. Some of our clients prefer that.",
     },
 ];
 

@@ -1,7 +1,7 @@
 const testimonialsData = [
-    {heading:"Phenomenal Service", description: "Great collaboration. I have now worked with Gustav for about 10 months, and we are fully satisfied with him, things are done well and efficiently, and you are never in doubt that he is ready to help.", name:"Bill Gates", image:"/people/two.jpg", position:"CEO & Founder"},
-    {heading:"Phenomenal Service", description: "Great collaboration. I have now worked with Gustav for about 10 months, and we are fully satisfied with him, things are done well and efficiently, and you are never in doubt that he is ready to help.", name:"Bill Gates", image:"/people/two.jpg", position:"CEO & Founder"},
-    {heading:"Phenomenal Service", description: "Great collaboration. I have now worked with Gustav for about 10 months, and we are fully satisfied with him, things are done well and efficiently, and you are never in doubt that he is ready to help.", name:"Bill Gates", image:"/people/two.jpg", position:"CEO & Founder"},
+    {heading:"Amazing Service!", description: "I've been working with Kasper and Niclas for a couple of months. In our first month we averaged about 5-7 sales calls per week which was amazing ‍ So far we've spent about £3,000 and made £18,000 with them ‍ They are two genuine young guys trying to look after their clients. I would highly recommmed giving them a shot", name:"Ventur", image:"/people/two.jpg", position:"CEO"},
+    {heading:"Phenomenal Service", description: "Before partnering with Client Complex I had worked with and heard of many outreach agencies, non of whom were able to deliver results like Kasper & Niclas. So far it's been very impressive what the guys have been able to do - also communications has been super - they're simply professionals. Overall I couldn't recommend them more!", name:"Gizeno", image:"/people/two.jpg", position:"CEO"},
+    {heading:"Phenomenal Service", description: "If you know anything about ecom outreach, you know how difficult it is to get quality webshop owners on sales calls - Scalender has somehow cracked the code. Big recommendation from me and & the team", name:"COAD", image:"/people/two.jpg", position:"CEO"},
 ]
 
 export default function Testimonials() {
@@ -21,10 +21,12 @@ export default function Testimonials() {
 
 const TestimonialCard = (props:any) => {
     return (
-        <div  className="p-10 border-[1px] rounded-xl">
+        <div  className="p-10 border-[1px] rounded-xl flex flex-col justify-between">
             <img className="w-[100px] mb-[20px]" src="/sliderlogos/meta.png"></img>
-            <h1 className="text-xl font-semibold mb-[14px]">{props.Obj.heading}</h1>
-            <p className="text-gray-600 font-regular mb-12">{props.Obj.description}</p>
+            <div className="flex-1">
+                <h1 className="text-xl font-semibold mb-[14px]">{props.Obj.heading}</h1>
+                <p className="text-gray-600 font-regular mb-12">{props.Obj.description}</p>
+            </div>
             <div className="flex items-center gap-3">
                 <img className="w-[50px] h-[50px] object-cover rounded-full" src={props.Obj.image}></img>
                 <div>

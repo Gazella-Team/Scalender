@@ -1,24 +1,113 @@
-import Link from "next/link";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Link, Element } from "react-scroll";
+import { useRouter } from "next/router";
 
 const links = [
-    {name: "Resultater", path: "/"},
-    {name: "Cases", path: "/"},
-    {name: "Team", path: "/"},
-    {name: "Kontakt", path: "/"},
+    {name: "Results", path: "/"},
+    {name: "Client testimonials", path: "/"},
+    {name: "Services", path: "/"},
+    {name: "FAQ", path: "/"},
 ]
 
 export default function Navbar() {
+    const [isEnglish, setIsEnglish] = useState(false);
+    const [menuClicked, setMenuClicked] = useState(false);
+    const router = useRouter();
+    const currentPath = router.pathname.slice(0, 3);
     return (
-        <nav className="h-[10vh] flex items-center">
-            <div className="w-[94%] mx-auto max-w-[1400px] text-white flex items-center justify-between">
-                <h1 className="text-[20px] font-semibold uppercase">scalender</h1>
-                <div className="flex items-center gap-6 font-medium">
-                    {links.map((v, index) => <Link key={index} className="text-white" href={v.path}>{v.name}</Link>)}
-                </div>
-                <div>
-                    <Link className="px-7 py-3 rounded-full text-sm font-semibold bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700" href={"/"}>Book møde</Link>
-                </div>
+      <>
+        <nav
+          className="bg-transparent text-white h-[10vh] flex items-center z-[999]" // You can adjust opacity using Tailwind's bg-opacity utility
+        >
+          <div className="w-[96%] mx-auto max-w-main flex items-center justify-between">
+            <Link href={"/"} className="text-[24px] font-[600] text-main">
+              <h1 className="text-[18px]">SCALENDER</h1>
+            </Link>
+            <div className="flex items-center gap-[50px] font-[500] text-[16px] mde:hidden">
+              <Link
+                to="results"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                {currentPath === "/en" ? "Results" : "Resultater"}
+              </Link>
+              <Link
+                to="services"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Services
+              </Link>
+              <Link
+                to="team"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Team
+              </Link>
             </div>
+            <div className="mde:hidden">
+            </div>
+            <div
+              onClick={() => setMenuClicked(true)}
+              className="hidden mde:inline-block"
+            >
+              <Menu size={26} />
+            </div>
+          </div>
         </nav>
-    )
+        {menuClicked ? (
+          <div className="fixed top-0 bottom-0 left-0 right-0 bg-white z-[1000] py-[16px] mne:hidden">
+            <div className="w-[96%] mx-auto max-w-main">
+              <div className="flex items-center justify-between">
+                <Link href={"/"} className="text-[24px] font-[600] text-main">
+                  <img className="w-[100px]" src="/logo.png"></img>
+                </Link>
+                <div
+                  onClick={() => setMenuClicked(false)}
+                  className="hidden mde:inline-block"
+                >
+                  <X size={28} />
+                </div>
+              </div>
+              <div className="py-[60px] flex flex-col">
+                <Link
+                  onClick={() => setMenuClicked(false)}
+                  to="results"
+                  smooth={true}
+                  duration={10}
+                  className="cursor-pointer text-[40px]"
+                >
+                  {currentPath === "/en" ? "Results" : "Resultater"}
+                </Link>
+                <Link
+                  onClick={() => setMenuClicked(false)}
+                  to="services"
+                  smooth={true}
+                  duration={10}
+                  className="cursor-pointer text-[40px]"
+                >
+                  Services
+                </Link>
+                <Link
+                  onClick={() => setMenuClicked(false)}
+                  to="team"
+                  smooth={true}
+                  duration={10}
+                  className="cursor-pointer text-[40px]"
+                >
+                  Team
+                </Link>
+              </div>
+              <div className="inline-block">
+              </div>
+            </div>
+          </div>
+        ) : null}
+      </>
+    );
 }

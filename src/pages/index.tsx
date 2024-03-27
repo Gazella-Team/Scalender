@@ -7,6 +7,8 @@ import Services from "@/components/services";
 import Packages from "@/components/packages";
 import FAQ from "@/components/faq";
 import Footer from "@/components/Layout/Footer";
+import Cta from "@/components/Cta";
+import CaseEffect from "@/components/Animations/CaseEffect";
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
       <Services />
       <Packages />
       <FAQ />
+      <Cta />
       <Footer />
     </section>
   );

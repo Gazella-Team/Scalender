@@ -8,16 +8,16 @@ export default function Results() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-center gap-10">
                         <div className="border-l-[2px] py-6 px-6 border-blue-500">
-                            <p className="text-[22px] w-[80%] font-medium">We solve big data intelligence with our custom data solution.</p>
+                            <p className="text-[22px] w-[80%] font-medium">We identify your ICP and create lists around your best case studies, that they can relate to</p>
                         </div>
                         <div className="border-l-[2px] py-6 px-6 border-blue-500">
-                            <p className="text-[22px] w-[80%] font-medium">We solve big data intelligence with our custom data solution.</p>
+                            <p className="text-[22px] w-[80%] font-medium">We create targeted lists of decision makers within your ICP, carefully considering the different interests each role in a company might have</p>
                         </div>
                         <div className="border-l-[2px] py-6 px-6 border-blue-500">
-                            <p className="text-[22px] w-[80%] font-medium">We solve big data intelligence with our custom data solution.</p>
+                            <p className="text-[22px] w-[80%] font-medium">We nurture and pre-qualify the leads and send them on a sales meeting with you</p>
                         </div>
                         <div className="border-l-[2px] py-6 px-6 border-blue-500">
-                            <p className="text-[22px] w-[80%] font-medium">We solve big data intelligence with our custom data solution.</p>
+                            <p className="text-[22px] w-[80%] font-medium">If you know how to sell your service, the deals will start flowing. Our case studies prove it!</p>
                         </div>
                     </div>
                     <div className="flex items-center justify-end">

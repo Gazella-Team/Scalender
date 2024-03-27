@@ -10,8 +10,8 @@ export default function Hero() {
             <Navbar />
             <div className="text-center text-white h-[80vh] flex flex-col justify-center">
                 <div className="mb-[30px]">
-                    <h1 className="text-[34px] leading-[44px] font-medium w-[90%] mb-[20px] mx-auto max-w-[950px]">Marketing agencies, if you don’t close at least 3 new clients in 90 days, we work for free until you do.</h1>
-                    <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">We Plug The Worlds Best CRO Experts & Protocols Into Your Brand To Increase Your Revenue, Scalability & Profitability.</p>
+                    <h1 className="text-[34px] leading-[44px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1050px]">We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology</h1>
+                    <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">Increase your sales pipeline with the newest and best practices in cold email outreach</p>
                 </div>
                 <div className="mx-auto items-center justify-center mb-6 border flex w-[200px] gap-2 rounded-full py-1">
                         <div className="flex items-center">

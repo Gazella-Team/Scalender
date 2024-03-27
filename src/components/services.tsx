@@ -8,19 +8,18 @@ export default function Services() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-black">
                     <div style={{background:"linear-gradient(338deg, rgba(174,186,247,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}} className="bg-white border-[1px] p-10 rounded-xl text-center">
                         <div className="p-3 rounded-xl mb-8 border-[1px] inline-block">
-                            <img className="w-[50px]" src="/services/linkedin.png"></img>
+                            <img className="w-[50px]" src="/services/email.png"></img>
                         </div>
-                        <h1 className="text-[22px] font-medium mb-5">LinkedIn Outreach</h1>
-                        <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h1 className="text-[22px] font-medium mb-5">Cold Email</h1>
+                        <p className="text-gray-600">Utilizing cutting-edge AI, our agency specializes in transforming cold email outreach by meticulously analyzing data, crafting 1000’s of personalized messages, implementing iterative improvements based on real-time feedback, and ultimately delivering significant results, ensuring our clients stand out in the competitive landscape of cold email marketing.</p>
                     </div>
                     <div style={{background:"linear-gradient(338deg, rgba(174,186,247,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}} className="bg-white border-[1px] p-10 rounded-xl text-center">
                         <div className="p-3 rounded-xl mb-8 border-[1px] inline-block">
-                            <img className="w-[50px]" src="/services/email.png"></img>
+                            <img className="w-[50px]" src="/services/linkedin.png"></img>
                         </div>
-                        <h1 className="text-[22px] font-medium mb-5">Cold Email Outreach</h1>
-                        <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h1 className="text-[22px] font-medium mb-5">LinkedIn Outreach</h1>
+                        <p className="text-gray-600">LinkedIn is still an amazing tool for prospecting. Utilizing the same AI-methods as we do with cold email, we deliver genuine and human messages to your ideal prospects on LinkedIn, securing a very high booking-rate despite the limitations of volume on LinkedIn’s platform. We set up complex automated messaging flows that take into account any potential situation that might occur in the prospects journey.</p>
                     </div>
-
                 </div>
             </div>
         </section>
