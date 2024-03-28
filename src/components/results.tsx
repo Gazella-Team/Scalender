@@ -2,7 +2,7 @@ import { Reveal } from "./Animations/Reveal"
 
 export default function Results() {
     return (
-        <section className="h-100 py-[140px] bg-black">
+        <section className="h-100 py-[140px] bg-[#0d0d0d]">
             <div className="w-[90%] mx-auto max-w-[1200px] text-white">
                 <div className="text-center mb-20">
                     <h1 className="text-[44px] font-semibold">Results that <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">rock</span></h1>
