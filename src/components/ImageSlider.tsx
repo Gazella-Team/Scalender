@@ -4,7 +4,7 @@ const imageData = ["/sliderlogos/1.svg", "/sliderlogos/2.svg", "/sliderlogos/3.s
 
 export default function ImageSlider() {
     return (
-      <section className="py-4 bg-whites border-b-[1px] h-[10vh] flex items-center overflow-hidden">
+      <section className="py-0 bg-whites border-b-[1px] h-[8vh] flex items-center overflow-hidden">
         <div>
           <Slider
             width="170px"
