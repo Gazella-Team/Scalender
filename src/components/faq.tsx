@@ -58,7 +58,7 @@ export default function FAQ() {
             className="mt-8rounded-lg"
           >
             {questions.map((question, index) => (
-              <Reveal delayTime={0.3}>
+              <Reveal key={index} delayTime={0.3}>
                 <AccordionItem
                   key={index}
                   value={`item-${index}`}
