@@ -31,10 +31,18 @@ export default function Navbar() {
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                {currentPath === "/en" ? "Results" : "Resultater"}
+                Results
               </Link>
               <Link
                 to="services"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Client Testimonials
+              </Link>
+              <Link
+                to="team"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
@@ -47,11 +55,11 @@ export default function Navbar() {
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                Team
+                FAQ
               </Link>
             </div>
             <div className="mde:hidden">
-              <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>
+              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</a>
             </div>
             <div
               onClick={() => setMenuClicked(true)}
@@ -112,7 +120,9 @@ export default function Navbar() {
                 >
                   FAQ
                 </Link>
+                
               </div>
+              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</a>
               <div className="inline-block">
               </div>
             </div>

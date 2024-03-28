@@ -31,7 +31,7 @@ export default function Results() {
                         </Reveal>
                     </div>
                     <div className="flex items-center justify-end">
-                        <img className="w-[500px]" src="/cases/test.png"></img>
+                        <img className="w-[550px]" src="/cases/1.png"></img>
                     </div>
                 </div>
             </div>

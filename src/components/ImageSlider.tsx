@@ -1,13 +1,13 @@
 import Slider from "react-infinite-logo-slider";
 
-const imageData = ["/sliderlogos/Altitude.png", "/sliderlogos/arktik.png", "/sliderlogos/Bizconverts.png", "/sliderlogos/Email Composed.png", "/sliderlogos/Fly.png", "/sliderlogos/forone.webp", "/sliderlogos/gerber.png", "/sliderlogos/Gizeno.png", "/sliderlogos/Vidclia.webp"]
+const imageData = ["/sliderlogos/1.svg", "/sliderlogos/2.svg", "/sliderlogos/3.svg", "/sliderlogos/4.svg", "/sliderlogos/5.svg", "/sliderlogos/6.svg", "/sliderlogos/7.svg", "/sliderlogos/8.svg", "/sliderlogos/9.svg"]
 
 export default function ImageSlider() {
     return (
-      <section className="py-4 bg-slate-50 border-b-[1px] h-[10vh] flex items-center overflow-hidden">
+      <section className="py-4 bg-whites border-b-[1px] h-[10vh] flex items-center overflow-hidden">
         <div>
           <Slider
-            width="100px"
+            width="170px"
             duration={20}
             pauseOnHover={false}
             blurBorders={false}
@@ -15,7 +15,7 @@ export default function ImageSlider() {
           >
             {imageData.map((v) => (
               <Slider.Slide key={v}>
-                <img className="w-[70px]" alt={v} src={v}></img>
+                <img className="w-[100px]" alt={v} src={v}></img>
               </Slider.Slide>
             ))}
           </Slider>

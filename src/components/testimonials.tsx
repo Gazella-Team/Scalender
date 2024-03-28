@@ -23,7 +23,6 @@ export default function Testimonials() {
 
 const TestimonialCard = (props:any) => {
     return (
-        <Reveal delayTime={props.count / 3}>
         <div  className="p-10 border-[1px] rounded-xl flex flex-col justify-between">
             <img className="w-[100px] mb-[20px]" src="/5-star.webp"></img>
             <div className="flex-1">
@@ -38,6 +37,6 @@ const TestimonialCard = (props:any) => {
                 </div>
             </div>
         </div>
-        </Reveal>
+
     )
 }
