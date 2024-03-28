@@ -8,7 +8,7 @@ export default function Hero02() {
     return (
         <section style={{background: "radial-gradient(circle, rgba(17,35,83,1) 0%, rgba(11,18,55,1) 54%, rgba(11,10,40,1) 100%), url(/patterns/lines.svg)"}} className="bg-center bg-cover">
             <Navbar />
-            <div className="text-center text-white py-[140px] flex flex-col justify-center">
+            <div className="text-center text-white py-[140px] pt-[70px] flex flex-col justify-center">
                 <Reveal delayTime={0.2}>
                     <div className="mb-[30px]">
                         <h1 className="text-[44px] leading-[54px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1050px]">We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology</h1>
