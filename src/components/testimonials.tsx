@@ -1,3 +1,5 @@
+import { Reveal } from "./Animations/Reveal"
+
 const testimonialsData = [
     {heading:"Amazing Service!", description: "I've been working with Kasper and Niclas for a couple of months. In our first month we averaged about 5-7 sales calls per week which was amazing ‍ So far we've spent about £3,000 and made £18,000 with them ‍ They are two genuine young guys trying to look after their clients. I would highly recommmed giving them a shot", name:"Ventur", image:"/people/Ventur CEO.jpg", position:"CEO"},
     {heading:"Impressive results", description: "Before partnering with Client Complex I had worked with and heard of many outreach agencies, non of whom were able to deliver results like Kasper & Niclas. So far it's been very impressive what the guys have been able to do - also communications has been super - they're simply professionals. Overall I couldn't recommend them more!", name:"Gizeno", image:"/people/Gustav CEO.jpg", position:"CEO"},
@@ -12,7 +14,7 @@ export default function Testimonials() {
                     <h1 className="text-[44px] font-semibold">What clients have <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">to say</span></h1>
                 </div>
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-                    {testimonialsData.map(v => <TestimonialCard key={v} Obj={v} />)}
+                    {testimonialsData.map((v, index) => <TestimonialCard count={index} key={v} Obj={v} />)}
                 </div>
             </div>
         </section>
@@ -21,6 +23,7 @@ export default function Testimonials() {
 
 const TestimonialCard = (props:any) => {
     return (
+        <Reveal delayTime={props.count / 3}>
         <div  className="p-10 border-[1px] rounded-xl flex flex-col justify-between">
             <img className="w-[100px] mb-[20px]" src="/5-star.webp"></img>
             <div className="flex-1">
@@ -35,5 +38,6 @@ const TestimonialCard = (props:any) => {
                 </div>
             </div>
         </div>
+        </Reveal>
     )
 }

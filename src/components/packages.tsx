@@ -1,5 +1,6 @@
 import { Check, X } from "lucide-react";
 import Link from "next/link";
+import { Reveal } from "./Animations/Reveal";
 
 export default function Packages() {
     return (
@@ -9,6 +10,7 @@ export default function Packages() {
                     <h1 className="text-[44px] font-semibold">Choose your <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">package</span></h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-black">
+                    <Reveal delayTime={0.2}>
                     <div className="rounded-xl border p-10 h-[560px] flex flex-col justify-between" style={{background:"linear-gradient(338deg, rgba(101,126,255,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}}>
                         <h1 className="text-[22px] font-medium mb-2">Done-for-you</h1>
                         <p className="text-gray-600 mb-10">“I want this completely outsourced”</p>
@@ -38,6 +40,8 @@ export default function Packages() {
                             <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Get in touch</Link>
                         </div>
                     </div>
+                    </Reveal>
+                    <Reveal delayTime={0.2}>
                     <div className="rounded-xl border p-10 h-[560px] flex flex-col justify-between" style={{background:"linear-gradient(338deg, rgba(6,96,255,0.19233630952380953) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}}>
                         <h1 className="text-[22px] font-medium mb-2">Done-with-you</h1>
                         <p className="text-gray-600 mb-10">“I want this completely outsourced”</p>
@@ -67,6 +71,7 @@ export default function Packages() {
                             <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full text-center from-blue-600 via-blue-500 to-indigo-700 text-white px-4 py-3 rounded-full font-medium text-sm">Get in touch</Link>
                         </div>
                     </div>
+                    </Reveal>
                 </div>
             </div>
         </section>

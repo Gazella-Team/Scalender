@@ -58,6 +58,7 @@ export default function FAQ() {
             className="mt-8rounded-lg"
           >
             {questions.map((question, index) => (
+              <Reveal delayTime={0.3}>
                 <AccordionItem
                   key={index}
                   value={`item-${index}`}
@@ -66,6 +67,7 @@ export default function FAQ() {
                   <AccordionTrigger>{question.question}</AccordionTrigger>
                   <AccordionContent>{question.answer}</AccordionContent>
                 </AccordionItem>
+              </Reveal>
             ))}
           </Accordion>
       </div>
