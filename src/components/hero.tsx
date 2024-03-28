@@ -15,9 +15,9 @@ export default function Hero() {
                 </div>
                 <div className="mx-auto items-center justify-center mb-6 border flex w-[200px] gap-2 rounded-full py-1">
                         <div className="flex items-center">
-                            <img className="w-[40px] h-[40px] rounded-full object-cover" src="/people/one.jpg"></img>
-                            <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/two.jpg"></img>
-                            <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/three.jpg"></img>
+                            <img className="w-[40px] h-[40px] rounded-full object-cover" src="/people/Gizeno CEO.jpg"></img>
+                            <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/Gustav CEO.jpg"></img>
+                            <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/Ventur CEO.jpg"></img>
                         </div>
                         <div className="flex flex-col gap-1">
                             <p className="text-sm text-gray-200">10+ clients</p>

@@ -51,6 +51,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="mde:hidden">
+              <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>
             </div>
             <div
               onClick={() => setMenuClicked(true)}
@@ -65,7 +66,7 @@ export default function Navbar() {
             <div className="w-[96%] mx-auto max-w-main">
               <div className="flex items-center justify-between">
                 <Link href={"/"} className="text-[24px] font-[600] text-main">
-                  <img className="w-[100px]" src="/logo.png"></img>
+                  SCALENDER
                 </Link>
                 <div
                   onClick={() => setMenuClicked(false)}
@@ -86,7 +87,7 @@ export default function Navbar() {
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
-                  to="services"
+                  to="clients"
                   smooth={true}
                   duration={10}
                   className="cursor-pointer text-[40px]"
@@ -95,12 +96,21 @@ export default function Navbar() {
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
-                  to="team"
+                  to="services"
                   smooth={true}
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
                   Team
+                </Link>
+                <Link
+                  onClick={() => setMenuClicked(false)}
+                  to="questions"
+                  smooth={true}
+                  duration={10}
+                  className="cursor-pointer text-[40px]"
+                >
+                  FAQ
                 </Link>
               </div>
               <div className="inline-block">

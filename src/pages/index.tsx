@@ -9,6 +9,7 @@ import FAQ from "@/components/faq";
 import Footer from "@/components/Layout/Footer";
 import Cta from "@/components/Cta";
 import CaseEffect from "@/components/Animations/CaseEffect";
+import Element from "react-scroll"
 
 export default function Home() {
   return (
