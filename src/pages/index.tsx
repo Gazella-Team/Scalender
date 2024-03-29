@@ -17,11 +17,19 @@ export default function Home() {
     <section>
       <Hero02 />
       <ImageSlider />
-      <Results />
-      <Testimonials />
-      <Services />
+      <div id="results">
+        <Results />
+      </div>
+      <div id="clients">
+        <Testimonials />
+      </div>
+      <div id="services">
+        <Services />
+      </div>
       <Packages />
-      <FAQ />
+      <div id="faq">
+        <FAQ />
+      </div>
       <Cta />
       <Footer />
     </section>

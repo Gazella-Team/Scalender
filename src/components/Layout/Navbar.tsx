@@ -34,7 +34,7 @@ export default function Navbar() {
                 Results
               </Link>
               <Link
-                to="services"
+                to="clients"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
@@ -42,7 +42,7 @@ export default function Navbar() {
                 Client Testimonials
               </Link>
               <Link
-                to="team"
+                to="services"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
@@ -50,7 +50,7 @@ export default function Navbar() {
                 Services
               </Link>
               <Link
-                to="team"
+                to="faq"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
@@ -91,7 +91,7 @@ export default function Navbar() {
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
-                  {currentPath === "/en" ? "Results" : "Resultater"}
+                  Results
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
@@ -100,7 +100,7 @@ export default function Navbar() {
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
-                  Services
+                  Client Testimonials
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
@@ -109,11 +109,11 @@ export default function Navbar() {
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
-                  Team
+                  Services
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
-                  to="questions"
+                  to="faq"
                   smooth={true}
                   duration={10}
                   className="cursor-pointer text-[40px]"
