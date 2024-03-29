@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Hero02() {
     return (
-        <section style={{background: "radial-gradient(circle, rgba(17,35,83,1) 0%, rgba(11,18,55,1) 54%, rgba(11,10,40,1) 100%), url(/patterns/lines.svg)"}} className="bg-center bg-cover">
+        <section style={{backgroundImage: "url(/bg.jpg)"}} className="bg-center bg-cover">
             <Navbar />
             <div className="text-center text-white py-[70px] pt-[10px] flex flex-col justify-center">
                 <Reveal delayTime={0.2}>
