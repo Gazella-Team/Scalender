@@ -26,29 +26,37 @@ export default function Footer() {
               <div className="flex flex-col gap-[10px]">
                 <h1 className="font-[600] text-[22px] mb-[10px]">Menu</h1>
                 <Link
-                  to="results"
-                  smooth={true}
-                  duration={10}
-                  className="cursor-pointer text-[15px]"
-                >
-                  {currentPath === "/en" ? "Results" : "Results"}
-                </Link>
-                <Link
-                  to="services"
-                  smooth={true}
-                  duration={10}
-                  className="cursor-pointer text-[15px]"
-                >
-                  Services
-                </Link>
-                <Link
-                  to="team"
-                  smooth={true}
-                  duration={10}
-                  className="cursor-pointer text-[15px]"
-                >
-                  Team
-                </Link>
+                to="results"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Results
+              </Link>
+              <Link
+                to="clients"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Client Testimonials
+              </Link>
+              <Link
+                to="services"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                Services
+              </Link>
+              <Link
+                to="faq"
+                smooth={true}
+                duration={10}
+                className="cursor-pointer text-[16px]"
+              >
+                FAQ
+              </Link>
               </div>
               <div className="flex flex-col gap-[10px]">
                 <h1 className="font-[600] text-[22px] mb-[10px]">Contact</h1>

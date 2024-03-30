@@ -1,3 +1,4 @@
+import CaseEffect from "./Animations/CaseEffect"
 import { Reveal } from "./Animations/Reveal"
 
 export default function Results() {
@@ -30,8 +31,8 @@ export default function Results() {
                             </div>
                         </Reveal>
                     </div>
-                    <div className="flex items-center justify-end">
-                        <img className="w-[550px]" src="/cases/1.png"></img>
+                    <div className="flex items-center justify-center">
+                        <CaseEffect images={["/cases/1.png", "/cases/2.png", "/cases/3.png"]} />
                     </div>
                 </div>
             </div>

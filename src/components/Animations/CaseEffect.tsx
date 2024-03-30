@@ -1,35 +1,39 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
-type ImageSliderProps = {
-  images: string[];
-};
-
-const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+const CaseEffect = ({ images }:{images:any}) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-    }, 2000);
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
 
   return (
-    <div className="flex overflow-hidden w-[40%] mx-auto h-96">
-      {images.map((image, index) => (
-        <div
+    <div className='flex items-center justify-end' style={{ width: '100%', height: '100%' }}>
+      {images.map((image:any, index:number) => (
+        <motion.img
           key={index}
-          className={`flex-shrink-0 w-1/2 h-full bg-cover bg-no-repeat`}
+          src={image}
+          className='rounded-xl'
+          alt={`Slide ${index}`}
           style={{
-            backgroundImage: `url(${image})`,
-            transform: `translateX(${(index - currentIndex) * 100}%)`,
-            transition: 'transform 0.5s ease-in-out',
+            position: 'absolute',
+            width: '500px',
+            height: '400px',
+            objectFit: 'cover',
+            opacity: index === currentImageIndex ? 1 : 0,
+            transition: 'opacity 1s ease-in-out',
           }}
-        ></div>
+          animate={{ scale: index === currentImageIndex ? 1.09 : 1 }}
+          transition={{ duration: 0.3}}
+        />
       ))}
     </div>
   );
 };
 
-export default ImageSlider;
+export default CaseEffect;
