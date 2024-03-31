@@ -3,10 +3,11 @@ import { Reveal } from "./Animations/Reveal"
 import ImageSlider from "./ImageSlider"
 import Navbar from "./Layout/Navbar"
 import Link from "next/link"
+import WistiaEmbed from "./WistiaEmbed"
 
 export default function Hero02() {
     return (
-        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover">
+        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover pb-[340px]">
             <Navbar />
             <div className="text-center text-white py-[70px] pt-[10px] flex flex-col justify-center ">
                 <Reveal delayTime={0.2}>
@@ -29,7 +30,8 @@ export default function Hero02() {
     
                     </div>
                 </Reveal>
-                <p className="flex justify-center"><a href="https://scalender.wistia.com/medias/ehyhr449n3?wvideo=ehyhr449n3"><img src="https://embed-ssl.wistia.com/deliveries/ff73ce8278535215c9022cdf47b14e4a7ac9eaa9.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=2949E5e0" width="400" height="225" className="w-[700px] height-[625px]"/></a></p><p><a href="https://scalender.wistia.com/medias/ehyhr449n3?wvideo=ehyhr449n3"></a></p>
+                <WistiaEmbed />
+    
                 <div className="inline-block mt-10">
                     <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>        
                 </div>
