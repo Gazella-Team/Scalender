@@ -7,7 +7,7 @@ import WistiaEmbed from "./WistiaEmbed"
 
 export default function Hero02() {
     return (
-        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover pb-[340px]">
+        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover">
             <Navbar />
             <div className="text-center text-white py-[70px] pt-[10px] flex flex-col justify-center ">
                 <Reveal delayTime={0.2}>
