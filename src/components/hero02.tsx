@@ -29,13 +29,7 @@ export default function Hero02() {
     
                     </div>
                 </Reveal>
-                <div className="text-white mb-0 bg-[url(/thumbnails/video.webp)] bg-cover bg-center w-[750px] h-[400px] rounded-xl flex items-center justify-center mx-auto">
-                    <div className="bg-blue-500 h-[80px] w-[80px] rounded-full flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-9 h-9">
-                            <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
-                        </svg>
-                    </div>
-                </div> 
+                <p className="flex justify-center"><a href="https://scalender.wistia.com/medias/ehyhr449n3?wvideo=ehyhr449n3"><img src="https://embed-ssl.wistia.com/deliveries/ff73ce8278535215c9022cdf47b14e4a7ac9eaa9.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=2949E5e0" width="400" height="225" className="w-[700px] height-[625px]"/></a></p><p><a href="https://scalender.wistia.com/medias/ehyhr449n3?wvideo=ehyhr449n3"></a></p>
                 <div className="inline-block mt-10">
                     <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>        
                 </div>
