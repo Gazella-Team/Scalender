@@ -18,7 +18,7 @@ export default function Testimonials() {
                 </div>
             </div>
         </section>
-    )
+    )//
 }
 
 const TestimonialCard = (props:any) => {
