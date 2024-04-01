@@ -11,10 +11,12 @@ import Cta from "@/components/Cta";
 import CaseEffect from "@/components/Animations/CaseEffect";
 import Element from "react-scroll"
 import Hero02 from "@/components/hero02";
+import Meta from "@/components/Layout/Meta";
 
 export default function Home() {
   return (
     <section>
+      <Meta />
       <Hero02 />
       <ImageSlider />
       <div id="results">

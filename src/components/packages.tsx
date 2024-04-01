@@ -11,7 +11,7 @@ export default function Packages() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-black">
                     <Reveal delayTime={0.2}>
-                    <div className="rounded-xl border p-10 h-[560px] flex flex-col justify-between" style={{background:"linear-gradient(338deg, rgba(101,126,255,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}}>
+                    <div className="rounded-xl border p-10 h-[560px] flex flex-col justify-between" style={{background:"linear-gradient(16deg, rgba(101,126,255,1) 2%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%)"}}>
                         <h1 className="text-[22px] font-medium mb-2">Done-for-you</h1>
                         <p className="text-gray-600 mb-10">“I want this completely outsourced”</p>
                         <div className="flex flex-col gap-5">

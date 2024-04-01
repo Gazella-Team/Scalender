@@ -61,7 +61,7 @@ export default function Footer() {
               <div className="flex flex-col gap-[10px]">
                 <h1 className="font-[600] text-[22px] mb-[10px]">Contact</h1>
                 <p className="text-gray-600">
-                  {currentPath === "/en" ? "VAT: DK43407376" : "CVR: 43407376"}
+                  VAT: DK44513102
                 </p>
                 <p className="text-gray-600">niclas@scalender.com</p>
               </div>

@@ -3,7 +3,7 @@ import Head from "next/head";
 const Meta = ({
   title = "Scalender",
   keywords = "Scalender",
-  description = "Scalender",
+  description = "We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology",
   icon = "/favicon.ico",
   banner = "/omca.png",
   url = "https://scalender.com",
@@ -18,7 +18,6 @@ const Meta = ({
   return (
     <Head>
       <meta name="theme-color" content={"#fffff"} key="theme-color" />
-
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1"
