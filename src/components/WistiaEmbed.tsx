@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 
 const WistiaEmbed = () => {
   useEffect(() => {
-    // Load Wistia embed script
     const script1 = document.createElement('script');
     script1.src = 'https://fast.wistia.com/embed/medias/ehyhr449n3.jsonp';
     script1.async = true;
@@ -13,10 +12,23 @@ const WistiaEmbed = () => {
     script2.async = true;
     document.body.appendChild(script2);
 
-    // Cleanup function to remove the scripts when the component unmounts
     return () => {
       document.body.removeChild(script1);
       document.body.removeChild(script2);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      const swatch = document.querySelector('.wistia_swatch');
+    };
+
+    const image = new Image();
+    image.src = 'https://fast.wistia.com/embed/medias/ehyhr449n3/swatch';
+    image.onload = handleLoad;
+
+    return () => {
+      image.onload = null;
     };
   }, []);
 
