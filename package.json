@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@wistia/wistia-player": "^0.0.0-alpha.32",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.15",
     "lucide-react": "^0.359.0",
@@ -16,6 +17,7 @@
     "radix-ui": "^1.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-helmet": "^6.1.0",
     "react-infinite-logo-slider": "^1.0.13",
     "react-scroll": "^1.9.0",
     "tailwind-merge": "^2.2.2"
