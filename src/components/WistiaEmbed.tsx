@@ -1,20 +1,35 @@
-import React from 'react';
-import YouTube, { YouTubeProps } from 'react-youtube';
+import React, { useEffect } from 'react';
 
-export default function WistiaEmbed() {
-  const onPlayerReady: YouTubeProps['onReady'] = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  }
+const WistiaEmbed = () => {
+  useEffect(() => {
+    const script1 = document.createElement('script');
+    script1.src = 'https://fast.wistia.com/embed/medias/2nr4zwd2n1.jsonp';
+    script1.async = true;
 
-  const opts: YouTubeProps['opts'] = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
+    const script2 = document.createElement('script');
+    script2.src = 'https://fast.wistia.com/assets/external/E-v1.js';
+    script2.async = true;
 
-  return <YouTube videoId="cpMuqTK_Wlk" opts={opts} onReady={onPlayerReady} />;
-}
+    document.body.appendChild(script1);
+    document.body.appendChild(script2);
+
+    return () => {
+      document.body.removeChild(script1);
+      document.body.removeChild(script2);
+    };
+  }, []);
+
+  return (
+    <div className="wistia_responsive_padding" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+      <div className="wistia_responsive_wrapper" style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}>
+        <div className="wistia_embed wistia_async_2nr4zwd2n1 seo=false videoFoam=true" style={{ height: '100%', position: 'relative', width: '100%' }}>
+          <div className="wistia_swatch" style={{ height: '100%', left: 0, opacity: 0, overflow: 'hidden', position: 'absolute', top: 0, transition: 'opacity 200ms', width: '100%' }}>
+            <img src="https://fast.wistia.com/embed/medias/2nr4zwd2n1/swatch" style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }} alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WistiaEmbed;
