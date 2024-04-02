@@ -2,8 +2,8 @@ import { Reveal } from "./Animations/Reveal"
 
 const testimonialsData = [
     {heading:"Amazing Service!", description: "I've been working with Kasper and Niclas for a couple of months. In our first month we averaged about 5-7 sales calls per week which was amazing ‍ So far we've spent about £3,000 and made £18,000 with them ‍ They are two genuine young guys trying to look after their clients. I would highly recommmed giving them a shot", name:"CEO", image:"/people/Ventur CEO.jpg", position:"of Brand Strategy Agency"},
-    {heading:"Impressive results", description: "Before partnering with Client Complex I had worked with and heard of many outreach agencies, non of whom were able to deliver results like Kasper & Niclas. So far it's been very impressive what the guys have been able to do - also communications has been super - they're simply professionals. Overall I couldn't recommend them more!", name:"CEO", image:"/people/Gustav CEO.jpg", position:"of E-commerce Agency"},
-    {heading:"Big recommendation!", description: "If you know anything about ecom outreach, you know how difficult it is to get quality webshop owners on sales calls - Scalender has somehow cracked the code. Big recommendation from me and & the team", name:"CEO", image:"/people/Gizeno CEO.jpg", position:"of E-commerce Agency"},
+    {heading:"Impressive results", description: "Before partnering with Client Complex I had worked with and heard of many outreach agencies, non of whom were able to deliver results like Kasper & Niclas. So far it's been very impressive what the guys have been able to do - also communications has been super - they're simply professionals. Overall I couldn't recommend them more!", name:"CEO", image:"/people/Gizeno CEO.jpg", position:"of E-commerce Agency"},
+    {heading:"Big recommendation!", description: "If you know anything about ecom outreach, you know how difficult it is to get quality webshop owners on sales calls - Scalender has somehow cracked the code. Big recommendation from me and & the team", name:"CEO", image:"/people/Gustav CEO.jpg", position:"of E-commerce Agency"},
 ]
 
 export default function Testimonials() {
