@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 
-const WistiaEmbed = () => {
+const WistiaVideoEmbed = () => {
   useEffect(() => {
     const script1 = document.createElement('script');
-    script1.src = 'https://fast.wistia.com/embed/medias/2nr4zwd2n1.jsonp';
+    script1.src = 'https://fast.wistia.com/embed/medias/7jzixef300.jsonp';
     script1.async = true;
 
     const script2 = document.createElement('script');
@@ -22,9 +22,9 @@ const WistiaEmbed = () => {
   return (
     <div className="wistia_responsive_padding" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
       <div className="wistia_responsive_wrapper" style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}>
-        <div className="wistia_embed wistia_async_2nr4zwd2n1 seo=false videoFoam=true" style={{ height: '100%', position: 'relative', width: '100%' }}>
+        <div className="wistia_embed wistia_async_7jzixef300 seo=false videoFoam=true" style={{ height: '100%', position: 'relative', width: '100%' }}>
           <div className="wistia_swatch" style={{ height: '100%', left: 0, opacity: 0, overflow: 'hidden', position: 'absolute', top: 0, transition: 'opacity 200ms', width: '100%' }}>
-            <img src="https://fast.wistia.com/embed/medias/2nr4zwd2n1/swatch" style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }} alt="" aria-hidden="true" />
+            <img src="https://fast.wistia.com/embed/medias/7jzixef300/swatch" style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }} alt="" aria-hidden="true" />
           </div>
         </div>
       </div>
@@ -32,4 +32,4 @@ const WistiaEmbed = () => {
   );
 };
 
-export default WistiaEmbed;
+export default WistiaVideoEmbed;
