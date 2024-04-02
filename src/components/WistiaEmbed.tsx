@@ -1,16 +1,20 @@
 import React from 'react';
+import YouTube, { YouTubeProps } from 'react-youtube';
 
-const VimeoVideo = () => {
-  return (
-    <div className='w-[700px] h-[700px] mx-auto'>
-      <iframe 
-        src="https://player.vimeo.com/video/929838647?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-        style={{top: 0, left: 0, width: '100%', height: '100%'}} 
-        title="202403261413"
-      />
-    </div>
-  );
+export default function WistiaEmbed() {
+  const onPlayerReady: YouTubeProps['onReady'] = (event) => {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
+
+  const opts: YouTubeProps['opts'] = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
+  return <YouTube videoId="cpMuqTK_Wlk" opts={opts} onReady={onPlayerReady} />;
 }
-
-export default VimeoVideo;
