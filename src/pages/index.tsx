@@ -12,6 +12,7 @@ import CaseEffect from "@/components/Animations/CaseEffect";
 import Element from "react-scroll"
 import Hero02 from "@/components/hero02";
 import Meta from "@/components/Layout/Meta";
+import Carousel from "@/components/carousel";
 
 export default function Home() {
   return (
