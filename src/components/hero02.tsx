@@ -30,9 +30,6 @@ export default function Hero02() {
     
                     </div>
                 </Reveal>
-                <div className="w-[95%] mx-auto max-w-[1000px]">
-                    <WistiaEmbed />
-                </div>
                 <div className="inline-block mt-10">
                     <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>        
                 </div>

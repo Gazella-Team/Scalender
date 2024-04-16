@@ -23,15 +23,8 @@ export default function Home() {
       <div id="results">
         <Results />
       </div>
-      <div id="clients">
-        <Testimonials />
-      </div>
       <div id="services">
         <Services />
-      </div>
-      <Packages />
-      <div id="faq">
-        <FAQ />
       </div>
       <Cta />
       <Footer />
