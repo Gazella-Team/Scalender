@@ -3,8 +3,8 @@ import { Reveal } from "./Animations/Reveal"
 
 export default function Services() {
     return (
-        <section className="h-100 py-[140px] bg-[#0d0d0d]">
-            <div className="w-[90%] mx-auto max-w-[1200px] text-white">
+        <section className="h-100 py-[140px] bg-gray-100">
+            <div className="w-[90%] mx-auto max-w-[1200px] text-black">
                 <div className="text-center mb-20">
                     <h1 className="text-[44px] font-semibold">Services we <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-700">provide</span></h1>
                 </div>

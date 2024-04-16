@@ -7,9 +7,9 @@ import WistiaEmbed from "./WistiaEmbed"
 
 export default function Hero02() {
     return (
-        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover">
+        <section style={{backgroundImage: 'linear-gradient(to bottom, rgba(0,10,93,0.925323879551821) 0%, rgba(0,0,129,0.2)), url("/bg.jpg")'}} className="bg-center bg-cover flex flex-col min-h-[90vh]">
             <Navbar />
-            <div className="text-center text-white py-[70px] pt-[10px] flex-col justify-center">
+            <div className="text-center text-white py-[70px] pt-[10px] flex flex-col justify-center mt-40">
                 <Reveal delayTime={0.2}>
                     <div className="mb-[0px]">
                         <h1 className="text-[36px] leading-[54px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1050px]">We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology</h1>
