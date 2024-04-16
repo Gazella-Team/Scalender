@@ -20,7 +20,7 @@ export default function Hero() {
                             <img className="w-[40px] h-[40px] rounded-full object-cover ml-[-14px]" src="/people/Ventur CEO.jpg"></img>
                         </div>
                         <div className="flex flex-col gap-1">
-                            <p className="text-sm text-gray-200">10+ clients</p>
+                            <p className="text-sm text-gray-200">10+ klienter</p>
                             <img className="w-[50px]" src="/5-star.webp"></img>
                         </div>
     
