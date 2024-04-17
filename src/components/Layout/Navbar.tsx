@@ -31,15 +31,15 @@ export default function Navbar() {
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                Results
+                Resultater
               </Link>
               <Link
-                to="clients"
+                to="results"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                Client Testimonials
+                Klientudtalelser
               </Link>
               <Link
                 to="services"
@@ -49,17 +49,9 @@ export default function Navbar() {
               >
                 Services
               </Link>
-              <Link
-                to="faq"
-                smooth={true}
-                duration={10}
-                className="cursor-pointer text-[16px]"
-              >
-                FAQ
-              </Link>
             </div>
             <div className="mde:hidden">
-              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</a>
+              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Tag kontakt</a>
             </div>
             <div
               onClick={() => setMenuClicked(true)}
@@ -91,16 +83,16 @@ export default function Navbar() {
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
-                  Results
+                  Resultater
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
-                  to="clients"
+                  to="results"
                   smooth={true}
                   duration={10}
                   className="cursor-pointer text-[40px]"
                 >
-                  Client Testimonials
+                  Klientudtalelser
                 </Link>
                 <Link
                   onClick={() => setMenuClicked(false)}
@@ -111,18 +103,8 @@ export default function Navbar() {
                 >
                   Services
                 </Link>
-                <Link
-                  onClick={() => setMenuClicked(false)}
-                  to="faq"
-                  smooth={true}
-                  duration={10}
-                  className="cursor-pointer text-[40px]"
-                >
-                  FAQ
-                </Link>
-                
               </div>
-              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</a>
+              <a target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Tag kontakt</a>
               <div className="inline-block">
               </div>
             </div>

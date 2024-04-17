@@ -12,8 +12,8 @@ export default function Hero02() {
             <div className="text-center text-white py-[70px] pt-[10px] flex flex-col justify-center mt-40">
                 <Reveal delayTime={0.2}>
                     <div className="mb-[0px]">
-                        <h1 className="text-[36px] leading-[54px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1050px]">We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology</h1>
-                        <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">Increase your sales pipeline with the newest and best practices in cold email outreach</p>
+                        <h1 className="text-[36px] leading-[54px] font-medium w-[90%] mb-[20px] mx-auto max-w-[1050px]">Vi eksploderer dine salg med 20-100 % på 90 dage ved at levere salgsparate leads</h1>
+                        <p className="text-[18px] font-light w-[90%] mx-auto text-gray-200">Få et hav af kunder med vores performance baseret marketing</p>
                     </div>
                 </Reveal>
                 <Reveal delayTime={0.3}>
@@ -31,7 +31,7 @@ export default function Hero02() {
                     </div>
                 </Reveal>
                 <div className="inline-block mt-10">
-                    <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Get in touch</Link>        
+                    <Link target="_blank" href={"https://calendly.com/niclas-wwk"} className="bg-gradient-to-br w-full px-10 text-center from-blue-600 via-blue-500 to-indigo-700 text-white py-3 rounded-full font-medium text-sm">Tag kontakt</Link>        
                 </div>
             </div>
         </section>

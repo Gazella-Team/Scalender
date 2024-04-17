@@ -19,7 +19,7 @@ export default function Footer() {
               <p className="text-gray-600 max-w-[500px]">
                 {currentPath === "/en"
                   ? "With a long-term holistic approach, we focus solely on growing your profits. We manage the entire digital customer journey."
-                  : "We book you 6-12 qualified sales meetings a month at a performance basis with the newest AI marketing-technology"}
+                  : "Vi eksploderer dine salg med 20-100 % på 90 dage ved at levere salgsparate leadss"}
               </p>
             </div>
             <div className="flex gap-[160px]">
@@ -31,15 +31,15 @@ export default function Footer() {
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                Results
+                Resultater
               </Link>
               <Link
-                to="clients"
+                to="resultater"
                 smooth={true}
                 duration={10}
                 className="cursor-pointer text-[16px]"
               >
-                Client Testimonials
+                Klientudtalelser
               </Link>
               <Link
                 to="services"
@@ -49,19 +49,11 @@ export default function Footer() {
               >
                 Services
               </Link>
-              <Link
-                to="faq"
-                smooth={true}
-                duration={10}
-                className="cursor-pointer text-[16px]"
-              >
-                FAQ
-              </Link>
               </div>
               <div className="flex flex-col gap-[10px]">
-                <h1 className="font-[600] text-[22px] mb-[10px]">Contact</h1>
+                <h1 className="font-[600] text-[22px] mb-[10px]">Kontakt</h1>
                 <p className="text-gray-600">
-                  VAT: DK44513102
+                  CVR: DK44513102
                 </p>
                 <p className="text-gray-600">niclas@scalender.com</p>
               </div>
@@ -73,7 +65,7 @@ export default function Footer() {
             SCALENDER - ©{" "}
             {currentPath === "/en"
               ? "All rights reserved"
-              : "All rights reserved"}
+              : "Alle rettigheder forbeholdt"}
             , {new Date().getFullYear()}
           </h1>
         </div>
