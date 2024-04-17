@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link href={"/"} className="text-[24px] font-[600] text-main">
               <h1 className="text-[18px]">SCALENDER</h1>
             </Link>
-            <div className="flex items-center gap-[50px] font-[500] text-[16px] mde:hidden">
+            <div className="flex items-center ml-6 justify-center gap-[50px] font-[500] text-[16px] mde:hidden">
               <Link
                 to="results"
                 smooth={true}
