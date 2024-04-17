@@ -19,7 +19,7 @@ export default function Footer() {
               <p className="text-gray-600 max-w-[500px]">
                 {currentPath === "/en"
                   ? "With a long-term holistic approach, we focus solely on growing your profits. We manage the entire digital customer journey."
-                  : "Vi eksploderer dine salg med 20-100 % på 90 dage ved at levere salgsparate leadss"}
+                  : "Vi eksploderer dine salg med 40-50 % på 90 dage ved at levere salgsparate leadss"}
               </p>
             </div>
             <div className="flex gap-[160px]">
